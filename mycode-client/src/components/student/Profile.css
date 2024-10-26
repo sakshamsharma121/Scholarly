@@ -1,0 +1,20 @@
+.profile{
+    background-color: rgba(32,31,49,255);
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+}
+
+p:hover{
+    color:rgba(255,186,222,255) ;
+}
+
+h5:hover{
+    color:rgba(255,186,222,255) ;
+}
+
+/* .profile:hover{
+    background-color: rgba(96,95,112,255);
+} */

@@ -1,0 +1,109 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Great Vibes', cursive; /* Prevent horizontal overflow */
+  }
+  
+  .hero {
+    /* Ensure it takes full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
+  
+  .hero {
+    background: url('cdc55b9a-f1cf-4e3e-9e28-3437f420d117_0.jpeg') no-repeat center center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about {
+    text-align: center;
+    background-color: rgba(32,31,49,255);
+  }
+  
+  .features .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  
+
+  .feature-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+    background-color: rgba(43,42,60,255);
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature-card img {
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    object-fit: cover; /* Ensures images don't distort */
+  }
+  
+  
+  .features h4 {
+    color: whitesmoke; /* Change h4 text to whitesmoke color */
+    margin-top: 15px;
+  }
+  
+  .features p {
+    color: #5a5a7a; /* Adjust the paragraph text color if needed */
+  }
+  
+  
+  .features i {
+    color: rgba(43, 42, 60, 0.9); /* Adjust icon color */
+  }
+
+
+  /* About Section Styling */
+.about-card {
+  background-color: rgba(43,42,60,255);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+  color: whitesmoke; /* Darker text color for the title */
+}
+
+.about-card .lead {
+  font-weight: 500;
+  color: #555; /* Slightly lighter than the title */
+}
+
+.about-card p {
+  color: #666; /* Normal text color */
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+}
+ 
+  
+  
+  
+  
